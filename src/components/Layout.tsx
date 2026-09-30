@@ -1,11 +1,11 @@
-import { NavLink, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from "react-router-dom";
 
 const links = [
-  { to: '/', label: 'Domů' },
-  { to: '/catalog', label: 'Katalog' },
-  { to: '/cart', label: 'Košík' },
-  { to: '/profile', label: 'Profil' },
-]
+  { to: "/", label: "Domů" },
+  { to: "/catalog", label: "Katalog" },
+  { to: "/cart", label: "Košík" },
+  { to: "/profile", label: "Profil" },
+];
 
 export default function Layout() {
   return (
@@ -15,8 +15,10 @@ export default function Layout() {
           <NavLink
             key={l.to}
             to={l.to}
-            end={l.to === '/'}
-            className={({ isActive }) => (isActive ? 'font-bold underline' : '')}
+            end={l.to === "/"}
+            className={({ isActive }) =>
+              isActive ? "font-bold underline" : ""
+            }
           >
             {l.label}
           </NavLink>
@@ -26,5 +28,5 @@ export default function Layout() {
         <Outlet />
       </main>
     </div>
-  )
+  );
 }

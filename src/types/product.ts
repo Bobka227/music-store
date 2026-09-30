@@ -1,13 +1,5 @@
-export type Category = 'guitar' | 'bass' | 'keyboard' | 'drums' | 'accessory'
+import type { z } from "zod";
+import type { categorySchema, productSchema } from "../schemas/product";
 
-export interface Product {
-  id: string
-  name: string
-  brand: string
-  category: Category
-  price: number
-  stock: number
-  image: string
-  description: string
-  specs: Record<string, string>
-}
+export type Category = z.infer<typeof categorySchema>;
+export type Product = z.infer<typeof productSchema>;
