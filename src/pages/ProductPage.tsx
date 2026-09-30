@@ -60,9 +60,7 @@ export default function ProductPage() {
                 ? "Do košíku"
                 : "Maximum v košíku"}
           </button>
-          {inCart > 0 && (
-            <p className="text-sm mt-2">V košíku: {inCart} ks</p>
-          )}
+          {inCart > 0 && <p className="text-sm mt-2">V košíku: {inCart} ks</p>}
 
           <p className="mt-6">{product.description}</p>
 
