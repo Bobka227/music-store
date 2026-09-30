@@ -2,14 +2,201 @@
   "products": [
     {
       "id": "1",
-      "name": "Stratocaster Player",
+      "name": "Player Stratocaster",
       "brand": "Fender",
       "category": "guitar",
       "price": 21990,
       "stock": 5,
-      "image": "/images/strat.jpg",
-      "description": "Klasická elektrická kytara.",
-      "specs": { "Typ": "Elektrická", "Struny": "6", "Snímače": "SSS" }
+      "image": "https://placehold.co/600x400?text=Fender+Stratocaster",
+      "description": "Klasická elektrická kytara s všestranným zvukem vhodná pro rock, blues i pop.",
+      "specs": { "Typ": "Elektrická", "Struny": "6", "Snímače": "SSS", "Tělo": "Olše", "Hmatník": "Javor" }
+    },
+    {
+      "id": "2",
+      "name": "Les Paul Standard 50s",
+      "brand": "Gibson",
+      "category": "guitar",
+      "price": 69990,
+      "stock": 2,
+      "image": "https://placehold.co/600x400?text=Gibson+Les+Paul",
+      "description": "Legendární kytara s plným a teplým tónem a dlouhým sustainem.",
+      "specs": { "Typ": "Elektrická", "Struny": "6", "Snímače": "HH", "Tělo": "Mahagon", "Hmatník": "Palisandr" }
+    },
+    {
+      "id": "3",
+      "name": "Pacifica 112V",
+      "brand": "Yamaha",
+      "category": "guitar",
+      "price": 8490,
+      "stock": 12,
+      "image": "https://placehold.co/600x400?text=Yamaha+Pacifica",
+      "description": "Oblíbená kytara pro začátečníky s výborným poměrem cena/výkon.",
+      "specs": { "Typ": "Elektrická", "Struny": "6", "Snímače": "HSS", "Tělo": "Olše", "Hmatník": "Palisandr" }
+    },
+    {
+      "id": "4",
+      "name": "D-28",
+      "brand": "Martin",
+      "category": "guitar",
+      "price": 84990,
+      "stock": 1,
+      "image": "https://placehold.co/600x400?text=Martin+D-28",
+      "description": "Prémiová akustická kytara typu dreadnought s bohatým basem.",
+      "specs": { "Typ": "Akustická", "Struny": "6", "Tělo": "Palisandr", "Deska": "Smrk", "Hmatník": "Eben" }
+    },
+    {
+      "id": "5",
+      "name": "C40 II",
+      "brand": "Yamaha",
+      "category": "guitar",
+      "price": 2890,
+      "stock": 20,
+      "image": "https://placehold.co/600x400?text=Yamaha+C40",
+      "description": "Klasická kytara s nylonovými strunami, ideální pro výuku.",
+      "specs": { "Typ": "Klasická", "Struny": "6 (nylon)", "Tělo": "Meranti", "Deska": "Smrk" }
+    },
+    {
+      "id": "6",
+      "name": "Player Precision Bass",
+      "brand": "Fender",
+      "category": "bass",
+      "price": 22990,
+      "stock": 4,
+      "image": "https://placehold.co/600x400?text=Fender+Precision+Bass",
+      "description": "Ikonická baskytara s výrazným a průrazným zvukem.",
+      "specs": { "Typ": "Elektrická", "Struny": "4", "Snímače": "P", "Tělo": "Olše", "Menzura": "34\"" }
+    },
+    {
+      "id": "7",
+      "name": "SR300E",
+      "brand": "Ibanez",
+      "category": "bass",
+      "price": 9990,
+      "stock": 7,
+      "image": "https://placehold.co/600x400?text=Ibanez+SR300E",
+      "description": "Lehká baskytara s tenkým krkem a aktivní elektronikou.",
+      "specs": { "Typ": "Elektrická", "Struny": "4", "Snímače": "PJ", "Tělo": "Nyatoh", "Elektronika": "Aktivní" }
+    },
+    {
+      "id": "8",
+      "name": "TRBX305",
+      "brand": "Yamaha",
+      "category": "bass",
+      "price": 11490,
+      "stock": 0,
+      "image": "https://placehold.co/600x400?text=Yamaha+TRBX305",
+      "description": "Pětistrunná baskytara s širokým tónovým rozsahem.",
+      "specs": { "Typ": "Elektrická", "Struny": "5", "Snímače": "HH", "Tělo": "Mahagon", "Elektronika": "Aktivní" }
+    },
+    {
+      "id": "9",
+      "name": "P-145",
+      "brand": "Yamaha",
+      "category": "keyboard",
+      "price": 11990,
+      "stock": 6,
+      "image": "https://placehold.co/600x400?text=Yamaha+P-145",
+      "description": "Digitální piano s váženou klaviaturou pro domácí hraní.",
+      "specs": { "Typ": "Digitální piano", "Klávesy": "88", "Klaviatura": "Vážená", "Polyfonie": "64" }
+    },
+    {
+      "id": "10",
+      "name": "Nord Stage 4",
+      "brand": "Nord",
+      "category": "keyboard",
+      "price": 119990,
+      "stock": 1,
+      "image": "https://placehold.co/600x400?text=Nord+Stage+4",
+      "description": "Profesionální stage piano pro koncertní použití.",
+      "specs": { "Typ": "Stage piano", "Klávesy": "88", "Klaviatura": "Kladívková", "Polyfonie": "120" }
+    },
+    {
+      "id": "11",
+      "name": "Minilogue XD",
+      "brand": "Korg",
+      "category": "keyboard",
+      "price": 16990,
+      "stock": 3,
+      "image": "https://placehold.co/600x400?text=Korg+Minilogue+XD",
+      "description": "Hybridní analogový syntezátor s digitálním multi-enginem.",
+      "specs": { "Typ": "Syntezátor", "Klávesy": "37", "Polyfonie": "4", "Syntéza": "Analogová" }
+    },
+    {
+      "id": "12",
+      "name": "TD-07KV",
+      "brand": "Roland",
+      "category": "drums",
+      "price": 27990,
+      "stock": 3,
+      "image": "https://placehold.co/600x400?text=Roland+TD-07KV",
+      "description": "Elektronická bicí souprava s mesh blánami pro tiché cvičení.",
+      "specs": { "Typ": "Elektronické", "Pady": "5", "Činely": "3", "Blány": "Mesh" }
+    },
+    {
+      "id": "13",
+      "name": "Stage Custom Birch",
+      "brand": "Yamaha",
+      "category": "drums",
+      "price": 24990,
+      "stock": 2,
+      "image": "https://placehold.co/600x400?text=Yamaha+Stage+Custom",
+      "description": "Akustická bicí sada z břízy s jasným a punchy zvukem.",
+      "specs": { "Typ": "Akustické", "Bubny": "5", "Materiál": "Bříza", "Hardware": "Není součástí" }
+    },
+    {
+      "id": "14",
+      "name": "Cajon CP404",
+      "brand": "Meinl",
+      "category": "drums",
+      "price": 2990,
+      "stock": 9,
+      "image": "https://placehold.co/600x400?text=Meinl+Cajon",
+      "description": "Cajon se snare efektem, vhodný pro akustické hraní.",
+      "specs": { "Typ": "Perkuse", "Materiál": "Březová překližka", "Snare": "Ano" }
+    },
+    {
+      "id": "15",
+      "name": "Regular Slinky 10-46",
+      "brand": "Ernie Ball",
+      "category": "accessory",
+      "price": 199,
+      "stock": 100,
+      "image": "https://placehold.co/600x400?text=Ernie+Ball+Strings",
+      "description": "Nejoblíbenější struny pro elektrickou kytaru.",
+      "specs": { "Typ": "Struny", "Síla": "10-46", "Materiál": "Poniklovaná ocel" }
+    },
+    {
+      "id": "16",
+      "name": "Katana 50 MkII",
+      "brand": "Boss",
+      "category": "accessory",
+      "price": 7490,
+      "stock": 8,
+      "image": "https://placehold.co/600x400?text=Boss+Katana+50",
+      "description": "Kytarové kombo s vestavěnými efekty a několika typy zesilovačů.",
+      "specs": { "Typ": "Kombo", "Výkon": "50 W", "Reproduktor": "12\"", "Efekty": "Ano" }
+    },
+    {
+      "id": "17",
+      "name": "TU-3 Chromatic Tuner",
+      "brand": "Boss",
+      "category": "accessory",
+      "price": 2390,
+      "stock": 15,
+      "image": "https://placehold.co/600x400?text=Boss+TU-3",
+      "description": "Pedálová ladička s přesným laděním a true bypass.",
+      "specs": { "Typ": "Ladička", "Provedení": "Pedál", "Napájení": "9 V" }
+    },
+    {
+      "id": "18",
+      "name": "Gig Bag Deluxe",
+      "brand": "Fender",
+      "category": "accessory",
+      "price": 1890,
+      "stock": 0,
+      "image": "https://placehold.co/600x400?text=Fender+Gig+Bag",
+      "description": "Polstrované pouzdro pro elektrickou kytaru.",
+      "specs": { "Typ": "Pouzdro", "Pro": "Elektrická kytara", "Polstrování": "10 mm" }
     }
   ]
 }
