@@ -1,3 +1,3 @@
 export default function CheckoutPage() {
-  return <h1 className="text-2xl font-bold">Objednávka</h1>
+  return <h1 className="text-2xl font-bold">Objednávka</h1>;
 }

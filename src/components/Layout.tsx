@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import { useCartStore, getTotalCount } from "../store/cartStore";
 
 const links = [
   { to: "/", label: "Domů" },
@@ -8,6 +9,8 @@ const links = [
 ];
 
 export default function Layout() {
+  const count = useCartStore((s) => getTotalCount(s.items));
+
   return (
     <div className="min-h-screen">
       <header className="border-b p-4 flex gap-4">
@@ -21,6 +24,7 @@ export default function Layout() {
             }
           >
             {l.label}
+            {l.to === "/cart" && count > 0 && ` (${count})`}
           </NavLink>
         ))}
       </header>
