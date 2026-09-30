@@ -9,7 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "api": "json-server db.json --port 3001",
-    "start": "concurrently \"npm run api\" \"npm run dev\""
+    "start": "concurrently \"npm run api\" \"npm run dev\"",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
@@ -24,6 +28,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
     "@types/node": "^24.13.3",
