@@ -1,0 +1,15 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Stratocaster Player",
+      "brand": "Fender",
+      "category": "guitar",
+      "price": 21990,
+      "stock": 5,
+      "image": "/images/strat.jpg",
+      "description": "Klasická elektrická kytara.",
+      "specs": { "Typ": "Elektrická", "Struny": "6", "Snímače": "SSS" }
+    }
+  ]
+}
